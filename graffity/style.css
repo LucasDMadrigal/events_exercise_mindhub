@@ -1,0 +1,31 @@
+#container {
+  width: 300px;
+  height: 200px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+}
+#output {
+  font-size: 24px;
+  width: 50%;
+  height: 50%;
+  background-color: aqua;
+}
+
+#span-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  position: absolute;
+    top: 8%;
+    transform: translateY(50%);
+    right: 20%;
+}
+
+#output span {
+  background: gray;
+  font-size: 12px;
+  cursor: pointer;
+}
